@@ -1,3 +1,7 @@
+The purpose of this fork is to add support for reading the address of labels, for making a kind of label where you can set the address, and possibly for adding serialization into an executable buffer instead of into a vector.  If that last one is too hard, I can just rely on copying.
+
+My own version will include a memory allocator for executable memory on windows.
+
 # Zasm : x86-64 Assembler based on [Zydis](https://github.com/zyantific/zydis)
 
 ## Why?
